@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(1000px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.py-5 {
+  padding-block: 5px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-33per {
+  width: 33.33%;
+}
+
+.w-100per{
+  width: 100%;
+}
+
+.w-66px {
+  width: 66px;
+}
+
+.h-200 {
+  height: 200px;
+}
+.h-20per {
+  height: 20%;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-56 {
+  margin-left: 56px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.my-10 {
+  margin-block: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.b-corner {
+  border-radius: 10px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
