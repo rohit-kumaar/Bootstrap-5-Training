@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <title>Float</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+        <!-- Float -->
+        <h1 class="bg-dark text-white text-center ">Float</h1>
+        <section>
+            <div class="float-start bg-warning">Float start on all viewport sizes</div><br>
+            <div class="float-end bg-success">Float end on all viewport sizes</div><br>
+            <div class="float-none bg-info">Don't float on all viewport sizes</div>
+        </section>
+        <!-- Flex-fill -->
+        <h2 class="bg-dark text-white text-center ">Flex-fill</h2>
+        <section class="d-flex">
+            <div class=" flex-fill  bg-warning">
+                <h1>More content</h1>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis provident rem cumque quasi
+                voluptatibus quam, quaerat eligendi amet mollitia praesentium.
+            </div>
+            <div class=" flex-fill  bg-success">
+                <h2>Midden content</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, magnam.
+            </div>
+            <div class=" flex-fill  bg-info">
+                <h3>Less content</h3>
+                Lorem ipsum dolor sit amet.
+            </div>
+        </section>
+        <!-- Justify content -->
+        <h3 class="bg-dark text-white text-center ">Justify content</h3>
+        <section>
+            <div class="d-flex justify-content-start bg-primary text-white fw-bold">Justify Content Start</div>
+            <div class="d-flex justify-content-end bg-secondary text-white fw-bold">Justify Content End</div>
+            <div class="d-flex justify-content-center bg-danger text-white fw-bold">Justify Content Center</div>
+            <div class="d-flex justify-content-between bg-success text-white fw-bold">Justify Content Between</div>
+            <div class="d-flex justify-content-around bg-warning text-white fw-bold">Justify Content Around</div>
+            <div class="d-flex justify-content-evenly bg-info text-white fw-bold">Justify Content Evenly</div>
+        </section>
+        <!-- Order -->
+        <h4 class="bg-dark text-white text-center ">Order</h4>
+        <section class="d-flex">
+            <div class="order-3 h3 bg-primary">1<sup>st</sup></div>
+            <div class="order-2 h3 bg-secondary">2<sup>nd</sup></div>
+            <div class="order-1 h3 bg-info">3<sup>rd</sup></div>
+        </section>
+    </main>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
